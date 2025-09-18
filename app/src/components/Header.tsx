@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import ThemeBtn from "./ThemeBtn";
 
 const Header = () => {
   const activeList = (isActive: boolean) =>
@@ -10,7 +11,7 @@ const Header = () => {
     <div className="m-4 flex justify-center">
       <nav className="rounded-3xl shadow-[0_0_20px_2px_rgba(0,0,0,0.2)] p-4 w-full md:w-[70%] bg-white">
         <div>
-          <ul className="flex gap-8 justify-center items-center font-medium">
+          <ul className="flex gap-4 md:gap-8 justify-center items-center font-medium text-sm">
             <li>
               <NavLink
                 to="/"
@@ -35,6 +36,9 @@ const Header = () => {
                 Get in touch
               </NavLink>
             </li>
+            <div className="relative right-0 top-0">
+              <ThemeBtn />
+            </div>
           </ul>
         </div>
       </nav>
