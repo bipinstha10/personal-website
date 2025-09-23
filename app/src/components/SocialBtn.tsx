@@ -5,7 +5,7 @@ type btnProps = {
 const SocialBtn = ({ destination, icon }: btnProps) => {
   return (
     <div>
-      <button className="w-10 cursor-pointer hover:scale-125 transition">
+      <button className="w-8 cursor-pointer hover:scale-125 transition dark:border-1 rounded-full dark:bg-white">
         <a href={destination}>
           <img src={icon} />
         </a>

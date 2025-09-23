@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import { useGetCollectionMediaQuery } from "../redux/api/pexelsApi";
 
 const Gallery = () => {

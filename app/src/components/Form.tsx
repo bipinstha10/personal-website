@@ -38,7 +38,7 @@ const Form = () => {
   };
   return (
     <form
-      className="flex flex-col gap-2 w-80 md:w-100 rounded-3xl shadow-[0_0_20px_2px_rgba(0,0,0,0.2)] p-4"
+      className="flex flex-col gap-2 w-80 md:w-100 rounded-3xl shadow-[0_0_20px_2px_rgba(0,0,0,0.2)] p-4 dark:bg-white dark:text-black"
       onSubmit={handleSubmit(onSubmit)}
     >
       <label className="font-bold" htmlFor="">
