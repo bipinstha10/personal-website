@@ -7,7 +7,6 @@ const ThemeBtn = () => {
   const theme = useSelector((state: RootState) => state.theme.theme);
   const dispatch = useDispatch();
 
-  // Sync <html> with theme
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
@@ -19,9 +18,11 @@ const ThemeBtn = () => {
   return (
     <button
       onClick={() => dispatch(toggleTheme())}
-      className={`p-2 rounded-full transition border border-gray-300 ${
-        theme === "light" ? "bg-white" : "bg-black"
-      }`}
+      className={`p-2 rounded-full transition 
+    border border-gray-300 
+    ring-1 ring-gray-200 
+    antialiased shadow-sm
+    ${theme === "light" ? "bg-white" : "bg-black"}`}
     >
       <img
         className="w-5 md:w-6"

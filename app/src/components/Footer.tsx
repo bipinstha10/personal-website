@@ -1,9 +1,7 @@
 const Footer = () => {
   return (
-    <footer>
-      <div className="flex justify-center items-center p-2">
-        <p>Copyright © {new Date().getFullYear()}</p>
-      </div>
+    <footer className="flex justify-center items-center p-2 mt-2">
+      <p className="text-sm">Copyright © {new Date().getFullYear()}</p>
     </footer>
   );
 };

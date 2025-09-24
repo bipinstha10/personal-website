@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <div className="m-4 flex justify-center">
-      <nav className="rounded-3xl shadow-[0_0_20px_2px_rgba(0,0,0,0.2)] dark:shadow-[0_0_20px_2px_rgba(255,255,255,0.2)] p-4 w-full md:w-[70%] bg-white dark:bg-black">
+      <nav className="p-3 w-full md:w-[40%] rounded-full shadow-[0_0_20px_2px_rgba(0,0,0,0.2)] dark:shadow-[0_0_20px_2px_rgba(255,255,255,0.2)]  bg-white dark:bg-black">
         <div>
           <ul className="flex gap-4 md:gap-8 justify-center items-center font-medium text-sm">
             <li>
@@ -17,7 +17,7 @@ const Header = () => {
                 to="/"
                 className={({ isActive }) => activeList(isActive)}
               >
-                Home
+                /
               </NavLink>
             </li>
             <li>
