@@ -3,7 +3,7 @@ import SocialBtn from "../components/SocialBtn";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex-1 flex flex-col items-center">
       <h1 className="text-2xl md:text-3xl font-bold mb-8 mt-10 text-center">
         I’d Love to Hear from You
       </h1>

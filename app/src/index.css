@@ -6,3 +6,92 @@
 * {
   font-family: "Space Grotesk", sans-serif;
 }
+
+.sun {
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(
+    50% 0%,
+    56% 25%,
+    75% 7%,
+    69% 31%,
+    93% 25%,
+    75% 43%,
+    100% 50%,
+    75% 57%,
+    93% 75%,
+    69% 69%,
+    75% 93%,
+    56% 75%,
+    50% 100%,
+    44% 75%,
+    25% 93%,
+    31% 69%,
+    7% 75%,
+    25% 57%,
+    0% 50%,
+    25% 43%,
+    7% 25%,
+    31% 31%,
+    25% 7%,
+    44% 25%
+  );
+}
+
+.crescentMoon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.crescent {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  position: absolute;
+  top: 17px;
+  left: 0;
+}
+
+.circle {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.star {
+  width: 43px;
+  height: 43px;
+  clip-path: polygon(
+    50% 0%,
+    56% 25%,
+    75% 7%,
+    69% 31%,
+    93% 25%,
+    75% 43%,
+    100% 50%,
+    75% 57%,
+    93% 75%,
+    69% 69%,
+    75% 93%,
+    56% 75%,
+    50% 100%,
+    44% 75%,
+    25% 93%,
+    31% 69%,
+    7% 75%,
+    25% 57%,
+    0% 50%,
+    25% 43%,
+    7% 25%,
+    31% 31%,
+    25% 7%,
+    44% 25%
+  );
+  position: absolute;
+  top: 58px;
+  left: 20px;
+}

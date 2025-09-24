@@ -1,22 +1,29 @@
 const Home = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className="md:w-[70%] max-w-[1200px] grid grid-cols-1 md:grid-cols-2 items-center gap-8 p-8">
-        <div className="flex flex-col justify-center">
-          <h1 className="text-4xl font-display font-bold mb-4">
-            Hi there, I am Bipin.
+    <div className="flex-1 flex justify-center items-center overflow-hidden">
+      <div className="md:w-[40%] text-center">
+        <div className="flex flex-col justify-center ">
+          <div className="relative w-full h-[100px]">
+            <span className="sun absolute bg-black dark:bg-white top-0 right-0"></span>
+          </div>
+          <h1 className="md:text-8xl text-5xl font-display font-bold mb-4">
+            Hi. I'm Bipin. <br /> A Developer.
           </h1>
-          <p className="text-lg font-sans text-gray-700 dark:text-gray-100">
+          <p className="md:text-lg font-sans text-gray-700 dark:text-gray-100">
             I’m an engineering student who loves coding, photography, and
             creative projects. I enjoy blending logic with artistry to build
             meaningful work.
           </p>
+          <div className="relative w-full h-[100px]">
+            <div className="moon absolute top-0 left-0">
+              <div className="crescentMoon">
+                <div className="crescent bg-black dark:bg-white"></div>
+                <div className="circle bg-white dark:bg-black"></div>
+                <div className="star bg-black dark:bg-white"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <img
-          src="/images/Bipin.png"
-          alt="Bipin"
-          className="w-full md:max-w-[800px] md:max-h-[90vh] h-auto object-contain mx-auto drop-shadow-2xl dark:drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
-        />
       </div>
     </div>
   );

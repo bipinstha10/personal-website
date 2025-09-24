@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="w-[80%] md:w-[65%]">
-        <h1 className="text-2xl md:text-3xl font-bold mb-8 mt-10 text-center">
-          About Me
+        <h1 className="md:text-8xl text-5xl font-display font-bold mb-8 mt-10 text-center">
+          I'm Bipin.
         </h1>
         <p className="text-center text-md/5">
           Hi, I’m Bipin Shrestha, <br />a third-year Electronics, Communication,
